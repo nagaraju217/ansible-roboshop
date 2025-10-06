@@ -8,6 +8,8 @@
     domain_name: "rajutech.shop"
     instances: 
     - mongodb
+    - frontend
+    - backend
   tasks:
   - name: create ec2 instance
     amazon.aws.ec2_instance:
